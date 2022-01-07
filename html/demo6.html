@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: solid 1px black;
+            width: 300px;
+            height: 99px;
+            margin: auto;
+        }
+        table td{
+            /*border-collapse: collapse;*/
+            border: solid 1px black;
+            padding: 5px;
+        }
+        table th{
+            /*border-collapse: collapse;*/
+            border: solid 1px black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+   <table>
+       <caption>表格标题</caption>
+       <thead>
+       <tr>
+           <th>姓名</th>
+           <th>性别</th>
+           <th>年龄</th>
+       </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td rowspan="2">姓名</td>
+           <td>性别</td>
+           <td>年龄</td>
+       </tr>
+       <tr>
+           <td colspan="2">性别</td>
+       </tr>
+       </tbody>
+   </table>
+</body>
+</html>

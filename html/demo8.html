@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <p><label for="username1">用户名:<input type="text" name="username" id="username" > <input type="text" name="username" id="username1" ></label></p>
+    <p><label for="password">密&nbsp;&nbsp;&nbsp;码:<input type="password" maxlength="6" name="password" id="password"></label></p>
+    <p>
+        性别:<label>
+        <input type="radio" checked="checked" name="sex">
+     男 <input type="radio" name="sex"> 女
+    </label>
+    </p>
+    <p>
+        爱好:
+        <label>
+        <input type="checkbox" name="hobby" />吃饭
+        </label>
+        <label>
+            <input type="checkbox" name="hobby"  />睡觉
+        </label>
+        <label>
+            <input type="checkbox" name="hobby"  />打豆豆
+        </label>
+    </p>
+
+    <p>
+        按钮:<input type="button" value="搜索">
+        <input type="submit" value="提交按钮">
+        <input type="reset" value="重置表单">
+        <input type="image" src="../img/im.jpg" alt="">
+        <input type="file">
+        <input type="date" name="date" id="date">
+        <input type="datetime" name="datetime" id="datetime">
+        <input type="month">
+        <input type="datetime-local" name="" id="">
+        <input type="week">
+    </p>
+
+    <p>
+        <label>
+            留言板:
+<textarea>留言
+</textarea>
+        </label>
+    </p>
+
+    <p>
+        <label>选择籍贯:
+        <select>
+            <option selected="selected">北京</option>
+            <option>上海</option>
+            <option>广州</option>
+            <option>深圳</option>
+        </select>
+        </label>
+    </p>
+
+
+<p>
+    表单域:
+    <form action="/login" method="post" name="form1">
+        <p><label>用户名:<input type="text" name="username" placeholder="请输入用户名"></label><br></p>
+        <p><label>密&nbsp;&nbsp;&nbsp;码:<input type="password" name="password" placeholder="请输入密码"></label><br></p>
+        <p><input type="submit" value="提交"> <input type="reset" value="重置"></p>
+    </form>
+</p>
+</body>
+</html>
